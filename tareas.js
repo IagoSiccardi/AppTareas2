@@ -148,13 +148,13 @@ module.exports = {
         
         else {
 
-            if (tareaEncontrada !== false) {    
+            if (tareaEncontrada != false) {    
 
                 return console.log(mostrarTareas(tareaEncontrada))    
 
                
             }
-                return console.log("Tarea no encontrada")
+                return console.log("¡Tarea no encontrada!")
                       
         } 
     }
